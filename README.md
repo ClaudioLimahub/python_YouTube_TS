@@ -39,7 +39,7 @@ Este script lê informações de vídeos do YouTube a partir de um arquivo Excel
 
 ## Uso
 
-### Executar `ts_web_db_youtube.py`
+### Executar `yt_ts.py` ou `Excel-yt_ts.py`
 
 1. Clone o Repositório:
    ```bash
@@ -53,7 +53,7 @@ Atualize a chave da API do YouTube no script.
 Ajuste a configuração de conexão com o banco de dados SQL Server.
 
 4. Execute o Script:
-   python ts_web_db_youtube.py
+   python yt_ts.py ou python Excel-yt_ts.py
 
 ## Contribuições
 Sinta-se à vontade para contribuir com melhorias ou correções para esses scripts. Abra uma issue ou um pull request para colaborar.
