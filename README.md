@@ -55,18 +55,5 @@ Ajuste a configuração de conexão com o banco de dados SQL Server.
 4. Execute o Script:
    python ts_web_db_youtube.py
 
-## Executar 'ts_web_excel_youtube.py'
-1. Clone o Repositório:
-   git clone https://github.com/ClaudioLimahub/python_YouTube_TS.git
-
-2. Instale as Dependências:
-   pip install pandas requests
-
-3. Configure o Ambiente:
-   Atualize a chave da API do YouTube no script.
-
-4. Execute o Script:
-   python ts_web_excel_youtube.py
-
 ## Contribuições
 Sinta-se à vontade para contribuir com melhorias ou correções para esses scripts. Abra uma issue ou um pull request para colaborar.
