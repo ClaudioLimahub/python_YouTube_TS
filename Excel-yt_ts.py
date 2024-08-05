@@ -6,7 +6,7 @@ from tkinter import messagebox
 
 # Função para escrever log
 def write_log(message):
-    log_file_path = 'C:/Users/gblsj/OneDrive/Área de Trabalho/ts/python/youtube_videos/log.txt'
+    log_file_path = '(Seu diretório)'
     with open(log_file_path, 'a', encoding='utf-8') as log_file:
         log_file.write(message + '\n')
 
@@ -21,11 +21,11 @@ def show_popup(message):
 data_atual = datetime.now().strftime('%d/%m/%Y')
 
 # Passo 1: Carregar o arquivo Excel
-file_path = 'C:/Users/gblsj/OneDrive/Documentos/Python/RPA/ts_web_db_youtube/Videos TS.xlsx'
+file_path = '(Seu diretório)'
 df = pd.read_excel(file_path)
 
 # Passo 2: Carregar o arquivo Excel onde serão armazenadas as estatísticas
-file_path_stats = 'C:/Users/gblsj/OneDrive/Documentos/Python/RPA/ts_web_db_youtube/dados_TS_YT.xlsx'
+file_path_stats = '(Seu diretório)'
 df_stats = pd.read_excel(file_path_stats)
 
 # Adicionar colunas para estatísticas, se não existirem
@@ -42,7 +42,7 @@ write_log(f'Início do script: {current_time}')
 
 # Função para obter estatísticas do vídeo
 def get_video_statistics(video_id):
-    api_key = 'AIzaSyBQo8bdQ3TQI9iQQCJ_H48L4gtUBw5BGZg'  # Substitua pela sua chave de API
+    api_key = '(Sua chave de API)'  # Substitua pela sua chave de API
     url = f'https://www.googleapis.com/youtube/v3/videos?part=statistics&id={video_id}&key={api_key}'
     response = requests.get(url)
 
